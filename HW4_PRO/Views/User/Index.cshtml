@@ -1,0 +1,18 @@
+﻿@model HW4_PRO.Models.User;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+<head>
+    <title>Info about of User</title>
+</head>
+<body>
+    <div style="color: @ViewBag.Color">
+        <h1>Information about User</h1>
+        <p>Name: @Model.Name</p>
+        <p>Age: @Model.Age</p>
+        <p>Email: @Model.Email</p>
+    </div>
+</body>
+</html>
